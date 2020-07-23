@@ -1,4 +1,4 @@
-# Academic Utils
+# Academia Utils
 
 This is a repository containing assorted quality-of-life scripts I've put written.
 Most are python.
