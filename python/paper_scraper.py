@@ -23,6 +23,7 @@ print("I strongly recommended that you back up all files before renaming, as occ
 print("""Due to operating system restrictions, Paper Scraper automatically truncates filenames to 64 characters, including the .pdf extension. 
 In some folder structures, this may be too long. Truncation length can be edited by changing the CHAR_LIMIT parameter at the start of this script.""")
 print("As part of the renaming process, a file called ___renamed_paper_log.log is created. Keep this file to make future renames faster.")
+print("If you manually rename files, add the new filename to the end of the ___renamed_paper_log.log file")
 print("=============")
 directory = input("Please enter the path to the directory: ")
 if os.path.isdir(directory) == False:
