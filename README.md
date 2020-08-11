@@ -1,11 +1,20 @@
 # Academia Utils
 
 This is a repository containing assorted quality-of-life scripts I've put written.
-Most are python.
+Most are python 3.
 
-Feel free to use however you want, but please give credit.
+Feel free to modify however you want, but please give credit iff redistributing.
 
 Suggestions appreciated.
+
+## Installation
+1. Download the repository files as a .zip or use `git clone https://github.com/JakeHattwell/academia_utils`
+
+2. Install the requirements in the table below using `pip install --user REQUIREMENTNAME`
+
+3. Run the script
+
+## Scripts
 
 | Script      | Description | Requirements |
 | ----------- | ----------- | ------------ |
