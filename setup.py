@@ -3,16 +3,16 @@ from setuptools import setup,find_packages
 with open("README.md", "r") as fh:
     long_description = fh.read()
 
-setup(name='academia-tools',
+setup(name='research-assistant',
     version='1.0.0',
-    description='package of useful academia tools',
-    url='https://github.com/JakeHattwell/Academia-Tools',
+    description='useful academia tools',
+    url='https://github.com/JakeHattwell/research-assistant',
     author='Jake Hattwell',
     author_email='j.hattwell@uq.edu.au',
     long_description=long_description,
     long_description_content_type="text/markdown",
     license='MIT',
-    packages=find_packages('academia-tools'),
+    packages=find_packages('research-assistant'),
     install_requires=[
         'PyPDF2',
     ],
