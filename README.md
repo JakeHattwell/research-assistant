@@ -1,5 +1,6 @@
 # Research Assistant
 [![PyPI version](https://badge.fury.io/py/research-assistant.svg)](https://badge.fury.io/py/research-assistant)
+
 Research Assistant is a Python 3 library featuring small utilities that make life easier.
 
 ## Installation
