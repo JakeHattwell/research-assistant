@@ -5,7 +5,7 @@ Research Assistant is a Python 3 library featuring small utilities that make lif
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Research Assistant.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Research Assistant. This needs elevated permissions (sudo or admin), or install into a virtualenv.
 
 ```bash
 pip install research-assistant
