@@ -1,22 +1,35 @@
-# Academia Utils
+# Academia Tools
 
-This is a repository containing assorted quality-of-life scripts I've put written.
-Most are python 3.
-
-Feel free to modify however you want, but please give credit iff redistributing.
-
-Suggestions appreciated.
+Academia Tools is a Python 3 library featuring small utilities that make life easier.
 
 ## Installation
-1. Download the repository files as a .zip or use `git clone https://github.com/JakeHattwell/academia_utils`
 
-2. Install the requirements in the table below using `pip install --user REQUIREMENTNAME`
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install Academia Tools.
 
-3. Run the script
+```bash
+pip install academia-tools
+```
 
-## Scripts
+## Scripts and Usage
+To use a utility, simply call it from the command line. For example:
+
+```bash
+paper-scraper.py
+```
+will run the paper-scraper utility
 
 | Script      | Description | Requirements |
 | ----------- | ----------- | ------------ |
-| paper_scraper.py | Run on a folder of PDF files to rename files in a AUTHOR_DATE_TITLE format. For example: `jourABC_article_184505.pdf` → `Hattwell_2020_Useful Python Utils.pdf`. Quality of renaming dependent on metadata of PDFs. | PyPDF2 |
+| paper-scraper.py | Run on a folder of PDF files to rename files in a AUTHOR_DATE_TITLE format. For example: `jourABC_article_184505.pdf` → `Hattwell_2020_Useful Python Utils.pdf`. Quality of renaming dependent on metadata of PDFs. | PyPDF2 |
 
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
+## Thanks
+Thanks to Luke Husdell for feedback
