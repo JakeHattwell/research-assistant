@@ -21,7 +21,7 @@ will run the paper-scraper utility
 
 | Script      | Description | Requirements |
 | ----------- | ----------- | ------------ |
-| paper-scraper.py | Run on a folder of PDF files to rename files in a AUTHOR_DATE_TITLE format. For example: `jourABC_article_184505.pdf` → `Hattwell_2020_Research Assistant.pdf`. Quality of renaming dependent on metadata of PDFs. | PyPDF2 |
+| paper-scraper.py | Run on a folder of PDF files to rename files in a AUTHOR_DATE_TITLE format. For example: `jourABC_article_184505.pdf` → `Hattwell_2020_Research Assistant.pdf`. Quality of renaming is highly dependent on metadata of PDFs. Double check before deleting anything. | PyPDF2 |
 
 
 ## Contributing
